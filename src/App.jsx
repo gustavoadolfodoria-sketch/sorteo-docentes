@@ -5,12 +5,13 @@ import { DrawControls } from './components/DrawControls.jsx';
 import { WinnersPanel } from './components/WinnersPanel.jsx';
 import { StatsBar } from './components/StatsBar.jsx';
 import { useRaffle } from './hooks/useRaffle.js';
+import Footer from "./components/Footer";
 
 export default function App() {
   const raffle = useRaffle();
 
   return (
-    <main className="app-shell">
+    <main className="app-shell">  
       <section className="background-orb orb-one" />
       <section className="background-orb orb-two" />
 
@@ -74,6 +75,8 @@ export default function App() {
         </section>
 
         <WinnersPanel currentWinners={raffle.currentWinners} allWinners={raffle.allWinners} />
+         
+        <Footer />
       </div>
     </main>
   );

@@ -1,8 +1,8 @@
 export function Header() {
   return (
     <header className="hero">
-      <span className="eyebrow">VALENCIA CORDOBA</span>
-      <h1>SORTEO PREMIO MAESTROS</h1>
+      <span className="eyebrow">SORTEO PREMIO MAESTROS VALENCIA CORDOBA</span>
+      <h1>FELIZ DÍA MAESTRO</h1>
       <p>
         Realiza sorteos aleatorios para consurso dia del maestro Valencia Cordoba
       </p>
